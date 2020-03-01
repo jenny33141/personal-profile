@@ -7,7 +7,7 @@ const Home = () => {
       <p class="homeText">Jenny Collings</p>
       <p class="homeText2">Aspiring junior developer from Chester.</p>
       <img src={HomePage} className="homePageImg" alt="HomePage" />
-      <p>Contact me</p>
+      <p>Contact me: jennycollings333@gmail.com</p>
     </div>
   );
 };
