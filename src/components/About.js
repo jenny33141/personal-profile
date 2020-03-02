@@ -1,10 +1,15 @@
 import React from "react";
+import AboutMeImage from "../images/aboutMeImage.jpg"
 
 const About = () => {
   return (
     <div class="aboutMeMain">
       <h1 className="aboutHeader">About me</h1>
+      <h1 className="aboutHeader">I love coding</h1>
       <div className="aboutMeContainer">
+      <div className="aboutMeImageFrame">
+            <img src={AboutMeImage} className="aboutMeImage" alt="aboutMe" />
+          </div>
         <div className="aboutMe">
           <p>
             I’m a 46 year old mum of three who has just discovered, be it late
@@ -19,15 +24,14 @@ const About = () => {
             React, Html and CSS. This experience has given me the confidence to
             aim for a new career in the digital sector.
           </p>
+         
           <p>
             Coding energises me, challenges me and pushes me to be resourceful.
             I really enjoy problem solving, working collaboratively and I am
             excited to be working in a field where there is so much more to
             learn.
           </p>
-          <div className="aboutMeImage">
-            <p>p</p>
-          </div>
+         
         </div>
       </div>
     </div>
