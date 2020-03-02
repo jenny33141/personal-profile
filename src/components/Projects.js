@@ -30,7 +30,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="projectsContainer">
+    <div className="projectContainer">
       <h1 className="projectsHeader">Projects</h1>
       <div className="main-project-container">
         {myProject.map(project => {
