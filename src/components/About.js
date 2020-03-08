@@ -1,14 +1,17 @@
 import React from "react";
 import AboutMeImage from "../images/aboutMeImage.jpg"
 
+
 const About = () => {
   return (
     <div class="aboutMeMain">
-      <p className="aboutHeader">About me</p>
-      <p className="aboutHeader">Passionate about software development</p>
+       <p className="aboutHeader">About me</p>
+      <p className="aboutHeader1">Passionate junior developer</p>
       <div className="aboutMeContainer">
-      
-        <div className="aboutMe">
+      <div className="aboutMe">
+      <div className="aboutMeImageFrame">
+            <img src={AboutMeImage} className="aboutMeImage" alt="aboutMe" />
+          </div>
           <p className="p1">
             I’m a 46 year old mum of three who has just discovered, be it late
             in life, a real passion for web development after attending a three
@@ -17,9 +20,7 @@ const About = () => {
             the opportunity to gain the skills needed to become a technical
             professional.
           </p>
-          <div className="aboutMeImageFrame">
-            <img src={AboutMeImage} className="aboutMeImage" alt="aboutMe" />
-          </div>
+          
           <p>
             Here I have been able to create small projects using JavaScript,
             React, Html and CSS. This experience has given me the confidence to

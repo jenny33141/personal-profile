@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/project.css";
 
+
 const Project = props => {
   return (
     <div className="header-container">
