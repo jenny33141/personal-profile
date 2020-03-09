@@ -3,16 +3,19 @@
   flex-direction: row;
   align-content: center;
   justify-content: center;
-  /* background-color: gold; */
+  
+  /* padding-bottom: 20px; */
+  /* background-color: gold;  */
   
   width: 100%;
-  height: 58%;
+  height: 55%;
    background-image: url(../images/projectBackground.jpg);
    background-size: contain;
    background-repeat: no-repeat;
    background-position: center;
    font-size: 13px;
-   /* border: 20px black solid; */
+   /* border-top: 2px black solid; */
+   /* border-bottom: gold 100px solid; */
    margin-bottom: -60px;
    
   
@@ -22,11 +25,11 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 90px;
+  height: 100px;
   background-color: rgb(53, 51, 51);
   color: aliceblue;
-  margin-top: -20px;
-  /* margin-bottom: -1px; */
+  /* margin-top: -20px;s */
+  margin-bottom: -5px;
   font-size: 27px;
 }
 .project-container {
@@ -37,16 +40,15 @@
   flex-wrap: wrap;
   color: rgb(51, 48, 48);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  /* background-image: url(../images/ducks.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; */
-  /* background-color: gold; */
-
-  
+  /* /* background-image: url(../images/ducks.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover;  
+background-image: url(../images/projectBackground.jpg); */
+  /* background-color: goldenrod; */
    /* border: 2px solid grey; */
   width:100%;
-  height: 100%;
-  border-radius:;
+  /* height: 140%; */
+  /* border-radius:; */
   
 }
 .main-project-container {
@@ -58,20 +60,19 @@
   flex-wrap: wrap;
   flex-direction: row;
   /* background-color: hotpink; */
-  
+  }
 
-}
+ 
 
 .projectImage {
-  width: 250px;
-  height: 200px;
+  width: 225px;
+  height: 160px;
   /* border: 2px grey; */
-  border-bottom: none;
-  
-  padding: 20px, 20px;
+   border: 4px gold dotted;
+    /* padding: 20px, 20px; */
   /* border:rgb(168, 156, 156) 20px solid; */
-  margin-top: 30px;
-  /* border-radius:50px; */
+  margin-top: 40px;
+  border-radius:15px;
   
  
 
