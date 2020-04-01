@@ -5,7 +5,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Nav from "./components/Nav";
 
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 
 class App extends Component {
   render() {
