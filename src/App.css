@@ -154,6 +154,7 @@ color: aliceblue;
 .aboutMeMain {
   background-image: url(./images/yellowHome.jpg) ;
   background-size: cover;
+  background-repeat: no-repeat;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -207,11 +208,15 @@ color: aliceblue;
   text-align: center;
   color: aliceblue;
   margin-top: -40px;
+  text-align: justify;
+  
   }
 
   .p1 {
     margin-bottom: -10px;
-    color: rgb(138, 146, 153)
+    color: rgb(138, 146, 153);
+    overflow: auto;
+    height: 50vh;
   }
 
   .aboutMeImage {
@@ -248,6 +253,16 @@ color: aliceblue;
     }
     .aboutMe {
       font-size: 27px
+    }
+    .p1{
+      margin-top: 10px;
+      /* margin-bottom: -10px; */
+      color: aliceblue;
+      overflow: auto;
+      height: 40vh;
+      /* border: black 5px solid; */
+      /* border-radius: 20px; */
+      
     }
     .homeText {
       font-size: 55px;
@@ -292,6 +307,16 @@ color: aliceblue;
   .aboutMe {
     font-size: 22px
   }
+  .p1 {
+    margin-top: 10px;
+    /* margin-bottom: -10px; */
+    color: aliceblue;
+    overflow: auto;
+    height: 40vh;
+    /* border: black 5px solid; */
+    /* border-radius: 20px; */
+    
+  }
   .homeText2 {
     margin-right: 300px;
     margin-top: 150px;
@@ -308,7 +333,7 @@ color: aliceblue;
 }
 
 
-  @media (max-width: 767px)  {
+  @media (max-width: 600px)  {
     /* .navRight {
       margin-left: 20px;
     } */
@@ -321,9 +346,21 @@ color: aliceblue;
     .aboutMeImage {
       width: 125px;
       height: 175px;
+      border-radius: 20px;
     }
     .aboutMe {
       font-size: 16px;
+    }
+    .p1{
+      margin-top: 10px;
+      /* margin-bottom: -10px; */
+      color: aliceblue;
+      overflow: auto;
+      height: 40vh;
+      /* border: black 5px solid; */
+      /* border-radius: 20px; */
+      
+
     }
     .homeText2 {
       margin-right:0px;
