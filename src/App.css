@@ -42,7 +42,6 @@
   align-items: center;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
- 
   font-size: 30px;
   font-weight: 500;
   margin-left: 25px;
@@ -84,51 +83,52 @@
   font-weight: 700;
   line-height: 25px;
   color: rgb(36, 30, 30);
-  font-size:28px;
+  font-size: 28px;
   height: 100%;
   width: 100vw;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
+}
 .homeText {
   margin-top: 70px;
-  padding-right: 10px ;
-  width:200px;
+  padding-right: 10px;
+  width: 200px;
   height: 40px;
-  
-  
-  }
-.homeText1{
- display: flex;
- justify-content: flex-end;
- height: 40px;
+}
+.homeText1 {
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
   width: 400px;
   padding-right: 75px;
   padding-bottom: -60px;
-  margin-top: -25px;
-  
+  margin-top: -25%;
 }
-
 .homeText2 {
-color: aliceblue;
- font-size: 20px;
- height: 345px;
- width: 355px;
- display: flex;
- flex-direction: column;
- justify-content: flex-end;
- }
-
-
-.homePageImg {
-  height: 400px;
-  width: 1200px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  /* border-radius: px; */
-  padding: 10px;
-  background-color: aliceblue;
+  color: aliceblue;
+  font-size: 20px;
+  height: 345px;
+  width:355px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   
 }
+.homePageImg {
+height: 400px;
+width: 1200px;
+margin-top: 20px;
+margin-bottom: 50px;
+padding: 10px;
+background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
 
 .projectsHeader {
   font-family: Arial, Helvetica, sans-serif;
@@ -151,16 +151,18 @@ color: aliceblue;
 
 }
 
-.aboutMeMain {
-  background-image: url(./images/yellowHome.jpg) ;
+
+  .aboutMeMain {
+  background-image: url(./images/yellowHome.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
   display: flex;
+  flex-wrap: nowrap;
   justify-content: center;
   flex-direction: column;
   height: 100%;
-  width: 100%; 
+  width: 100%;
   }
   .aboutHeader {
   display: flex;
@@ -168,22 +170,17 @@ color: aliceblue;
   font-weight: bolder;
   font-size: 27px;
   width:100%;
-  ;
-  /* border: 1px green solid; */
-  
-  /* background-color:red; */
-}
+  }
 .aboutHeader1 {
   display: flex;
   justify-content: center;
   font-weight: bolder;
   font-size: 27px;
-  
   width: 100%;
-  /* border: 1px green solid; */
+ /* border: 1px green solid; */
   /* background-color: hotpink; */
   margin-top: -30px;
-}
+  }
 
 .aboutMeContainer {
   display: flex;
@@ -198,7 +195,8 @@ color: aliceblue;
 .aboutMe {
   display: flex;
   flex-direction:column;
-  align-items: center;
+  
+  align-items:center;
   height: 90%;
   width: 75%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -209,14 +207,19 @@ color: aliceblue;
   color: aliceblue;
   margin-top: -40px;
   text-align: justify;
+
   
+
   }
 
   .p1 {
+    
     margin-bottom: -10px;
     color: rgb(138, 146, 153);
+    
     overflow: auto;
     height: 50vh;
+    text-align: justify;
   }
 
   .aboutMeImage {
@@ -224,24 +227,21 @@ color: aliceblue;
   width: 125px;
   height:  175px;
   margin-top: 20px;
-
-  
-  
-  /* margin-left: 50px;
+  /* border: blueviolet 2px solid; */
+   /* margin-left: 50px;
   margin-right: 50px; */
   }
 
-  @media (min-width: 1024px) {
-    /* .navbar2 {
-      width: 100%;
-      margin-right: 400px;
-    } */
 
-   
+  
+     
+     
+  
+  @media (min-width: 1024px) {
+    
     .aboutHeader {
       font-size: 35px;
-      
-    }
+      }
     .aboutHeader1 {
       font-size: 35px
     }
@@ -262,33 +262,27 @@ color: aliceblue;
       height: 40vh;
       /* border: black 5px solid; */
       /* border-radius: 20px; */
-      
-    }
-    .homeText {
-      font-size: 55px;
-      width: 50%;
-      margin-left: 700px;
-      margin-top: 100px;
-    }
-
-    .homeText1 {
-      font-size: 50px;
-      width:1000px;
-      
-      margin-left: 60px;
-      margin-top: 20px;
-    
       }
+      .homeText {
+        font-size: 55px;
+        width: 50%;
+        margin-left: 700px;
+        margin-top: 100px;
+      }
+      .homeText1 {
+        font-size: 50px;
+        width: 1000px;
+        margin-left: 60px;
+        margin-top: 20px;
+      }
+      .homeText2 {
+        margin-top: 315px;
+        width: 1000px;
+        font-size: 30px;
+      }
+}
 
-    .homeText2 {
-      
-      margin-top: 315px;
-      width: 1000px;
-      font-size: 30px;
-  
-    }
 
-  }
 @media (max-width:1023px) {
   /* .navRight {
     margin-left: 40px;
@@ -362,12 +356,9 @@ color: aliceblue;
       
 
     }
-    .homeText2 {
-      margin-right:0px;
-      margin-top: 0px;
-  
-    }
-    
-
-  }
+   .homeText2 {
+     margin-right: 0px;
+     margin-top: 0px;
+   }
       
+  }

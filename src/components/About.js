@@ -26,9 +26,6 @@ const About = () => {
             Here I have been able to create small projects using JavaScript,
             React, Html and CSS. This experience has given me the confidence to
             aim for a new career in the digital sector.
-          
-         
-          
             Coding energises me, challenges me and pushes me to be resourceful.
             I really enjoy problem solving, working collaboratively and I am
             excited to be working in a field where there is so much more to
